@@ -33,6 +33,13 @@
 
 .chart {
   fill: none;
-  stroke-width: 2px;
+  stroke-width: 1px;
   stroke: blue;
+}
+
+.chart2 {
+  fill: none;
+  stroke-width: 1px;
+  stroke: purple;
+  stroke-dasharray: 3, 3;
 }

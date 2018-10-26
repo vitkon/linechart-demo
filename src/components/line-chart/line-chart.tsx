@@ -6,6 +6,10 @@ interface IProps {
 
 export class LineChart extends React.Component<IProps, {}> {
   render() {
-    return <svg>{this.props.children}</svg>;
+    return (
+      <svg width="600" height="300">
+        {this.props.children}
+      </svg>
+    );
   }
 }
